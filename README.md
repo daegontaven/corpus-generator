@@ -12,4 +12,5 @@ Scrapes messages from DM extractor for discord
     - `pip3 install pipenv`
 - Change into the download directory
 - Run `pipenv install .`
+- Make two new folders `corpus` and `messages`.
 - Finally `python generate.py`

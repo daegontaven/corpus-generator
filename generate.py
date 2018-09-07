@@ -16,8 +16,12 @@ files = []
 for _, _, filename in os.walk(MESSAGES):
     files.extend(filename)
 
+
 if len(files) > 1:
     print(f"Error: More than 1 file in '{MESSAGES}' folder!")
+    pquit()
+elif len(files) < 1:
+    print(f"Error: Put your DM file in the '{MESSAGES}' folder!")
     pquit()
 
 with open(os.path.join(MESSAGES, files[0])) as first_file:

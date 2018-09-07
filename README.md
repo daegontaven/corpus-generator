@@ -10,7 +10,8 @@ Scrapes messages from DM extractor for discord
     - `py -3 -m "pip install pipenv"`
     - `pip install pipenv`
     - `pip3 install pipenv`
-- Change into the download directory
+- Download the latest zip from [Releases](https://github.com/daegontaven/corpus-generator/releases)
+- Extract and change into the directory
 - Run `pipenv install .`
 - Make two new folders `corpus` and `messages`.
 - Finally `python generate.py`
